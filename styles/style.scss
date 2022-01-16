@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .data {
+        width: 100%;
+        position: relative;
+        .quotes {
+            margin-bottom: 30px;
+            margin: 20px auto;
+            width: 40%;
+            height: 150px;
+            box-shadow: 0px 5px 32px #dadada;
+            border-radius: 10px;
+            #para {
+                padding: 20px;
+            }
+            .author{
+                font-size: 15px;
+                display: flex;
+                justify-content: flex-end;
+                padding: 10px;
+                margin-top: 40px;
+            }
+        }
+        .btns {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            button {
+                padding: 5px 20px;
+                cursor: pointer;
+            }
+        }
+        #random{
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: blueviolet;
+            border: none;
+            outline: none;
+            position: absolute;
+            left: 26rem;
+            top: 150px;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+        }
+    }
+}

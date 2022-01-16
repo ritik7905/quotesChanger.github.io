@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.container .data {
+  width: 100%;
+  position: relative;
+}
+
+.container .data .quotes {
+  margin-bottom: 30px;
+  margin: 20px auto;
+  width: 40%;
+  height: 150px;
+  -webkit-box-shadow: 0px 5px 32px #dadada;
+          box-shadow: 0px 5px 32px #dadada;
+  border-radius: 10px;
+}
+
+.container .data .quotes #para {
+  padding: 20px;
+}
+
+.container .data .quotes .author {
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.container .data .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.container .data .btns button {
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.container .data #random {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: blueviolet;
+  border: none;
+  outline: none;
+  position: absolute;
+  left: 26rem;
+  top: 150px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
